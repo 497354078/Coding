@@ -1,0 +1,309 @@
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [1] Loss: 3.7541 Acc: 0.1963 EpochTime: 18.963688
+INFO:root:AvrEval: 0.207922  SegAvr: 0.125000 ProbAvr: 0.127500 eval_loss: 3.822960
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [2] Loss: 3.6414 Acc: 0.3094 EpochTime: 13.573850
+INFO:root:AvrEval: 0.257402  SegAvr: 0.162500 ProbAvr: 0.162500 eval_loss: 3.791938
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [3] Loss: 3.5590 Acc: 0.3936 EpochTime: 14.728911
+INFO:root:AvrEval: 0.285545  SegAvr: 0.187500 ProbAvr: 0.190000 eval_loss: 3.773606
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [4] Loss: 3.5082 Acc: 0.4433 EpochTime: 13.880959
+INFO:root:AvrEval: 0.296971  SegAvr: 0.192500 ProbAvr: 0.195000 eval_loss: 3.765269
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [5] Loss: 3.4793 Acc: 0.4690 EpochTime: 13.497809
+INFO:root:AvrEval: 0.312106  SegAvr: 0.220000 ProbAvr: 0.225000 eval_loss: 3.752693
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [6] Loss: 3.4516 Acc: 0.4985 EpochTime: 13.829294
+INFO:root:AvrEval: 0.323697  SegAvr: 0.232500 ProbAvr: 0.237500 eval_loss: 3.740466
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [7] Loss: 3.3876 Acc: 0.5668 EpochTime: 13.484760
+INFO:root:AvrEval: 0.332162  SegAvr: 0.230000 ProbAvr: 0.232500 eval_loss: 3.731101
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [8] Loss: 3.3537 Acc: 0.5999 EpochTime: 13.717233
+INFO:root:AvrEval: 0.299223  SegAvr: 0.222500 ProbAvr: 0.232500 eval_loss: 3.749011
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [9] Loss: 3.3080 Acc: 0.6465 EpochTime: 13.448180
+INFO:root:AvrEval: 0.331647  SegAvr: 0.252500 ProbAvr: 0.257500 eval_loss: 3.727126
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [10] Loss: 3.2837 Acc: 0.6686 EpochTime: 14.315110
+INFO:root:AvrEval: 0.320959  SegAvr: 0.240000 ProbAvr: 0.240000 eval_loss: 3.733831
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [11] Loss: 3.2697 Acc: 0.6812 EpochTime: 13.835455
+INFO:root:AvrEval: 0.353568  SegAvr: 0.260000 ProbAvr: 0.265000 eval_loss: 3.708576
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [12] Loss: 3.2388 Acc: 0.7150 EpochTime: 14.292472
+INFO:root:AvrEval: 0.338171  SegAvr: 0.257500 ProbAvr: 0.262500 eval_loss: 3.717669
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [13] Loss: 3.2319 Acc: 0.7180 EpochTime: 13.750638
+INFO:root:AvrEval: 0.385370  SegAvr: 0.300000 ProbAvr: 0.297500 eval_loss: 3.685315
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [14] Loss: 3.2298 Acc: 0.7189 EpochTime: 14.162182
+INFO:root:AvrEval: 0.390981  SegAvr: 0.315000 ProbAvr: 0.310000 eval_loss: 3.682723
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [15] Loss: 3.2165 Acc: 0.7352 EpochTime: 13.787675
+INFO:root:AvrEval: 0.394991  SegAvr: 0.302500 ProbAvr: 0.307500 eval_loss: 3.682306
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [16] Loss: 3.1770 Acc: 0.7789 EpochTime: 13.799984
+INFO:root:AvrEval: 0.375507  SegAvr: 0.310000 ProbAvr: 0.317500 eval_loss: 3.691611
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [17] Loss: 3.1607 Acc: 0.7931 EpochTime: 13.352954
+INFO:root:AvrEval: 0.417950  SegAvr: 0.330000 ProbAvr: 0.332500 eval_loss: 3.662929
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [18] Loss: 3.1559 Acc: 0.7952 EpochTime: 13.304258
+INFO:root:AvrEval: 0.412640  SegAvr: 0.317500 ProbAvr: 0.315000 eval_loss: 3.666495
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [19] Loss: 3.1545 Acc: 0.7958 EpochTime: 13.675566
+INFO:root:AvrEval: 0.352141  SegAvr: 0.285000 ProbAvr: 0.297500 eval_loss: 3.706120
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [20] Loss: 3.1536 Acc: 0.7961 EpochTime: 13.652504
+INFO:root:AvrEval: 0.412562  SegAvr: 0.335000 ProbAvr: 0.340000 eval_loss: 3.659112
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [21] Loss: 3.1458 Acc: 0.8071 EpochTime: 14.233896
+INFO:root:AvrEval: 0.349034  SegAvr: 0.280000 ProbAvr: 0.280000 eval_loss: 3.703041
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [22] Loss: 3.1392 Acc: 0.8126 EpochTime: 13.559799
+INFO:root:AvrEval: 0.420746  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.659705
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [23] Loss: 3.1297 Acc: 0.8235 EpochTime: 14.014036
+INFO:root:AvrEval: 0.390166  SegAvr: 0.312500 ProbAvr: 0.322500 eval_loss: 3.672600
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [24] Loss: 3.1256 Acc: 0.8261 EpochTime: 13.864422
+INFO:root:AvrEval: 0.407892  SegAvr: 0.342500 ProbAvr: 0.347500 eval_loss: 3.664289
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [25] Loss: 3.1245 Acc: 0.8264 EpochTime: 14.020337
+INFO:root:AvrEval: 0.364052  SegAvr: 0.307500 ProbAvr: 0.305000 eval_loss: 3.695639
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [26] Loss: 3.1184 Acc: 0.8333 EpochTime: 13.878265
+INFO:root:AvrEval: 0.407795  SegAvr: 0.337500 ProbAvr: 0.342500 eval_loss: 3.656027
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [27] Loss: 3.1127 Acc: 0.8388 EpochTime: 13.630642
+INFO:root:AvrEval: 0.399369  SegAvr: 0.355000 ProbAvr: 0.350000 eval_loss: 3.649789
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [28] Loss: 3.1122 Acc: 0.8389 EpochTime: 13.560394
+INFO:root:AvrEval: 0.379235  SegAvr: 0.322500 ProbAvr: 0.327500 eval_loss: 3.664180
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [29] Loss: 3.1119 Acc: 0.8391 EpochTime: 13.632882
+INFO:root:AvrEval: 0.396709  SegAvr: 0.357500 ProbAvr: 0.347500 eval_loss: 3.654402
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [30] Loss: 3.1115 Acc: 0.8391 EpochTime: 14.359603
+INFO:root:AvrEval: 0.344520  SegAvr: 0.297500 ProbAvr: 0.305000 eval_loss: 3.695311
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [31] Loss: 3.1105 Acc: 0.8398 EpochTime: 14.082439
+INFO:root:AvrEval: 0.382283  SegAvr: 0.342500 ProbAvr: 0.340000 eval_loss: 3.664849
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [32] Loss: 3.1097 Acc: 0.8407 EpochTime: 13.662181
+INFO:root:AvrEval: 0.390399  SegAvr: 0.335000 ProbAvr: 0.337500 eval_loss: 3.657385
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.010000 [33] Loss: 3.1095 Acc: 0.8408 EpochTime: 13.420116
+INFO:root:AvrEval: 0.360557  SegAvr: 0.315000 ProbAvr: 0.315000 eval_loss: 3.686319
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [34] Loss: 3.1056 Acc: 0.8417 EpochTime: 14.206823
+INFO:root:AvrEval: 0.403786  SegAvr: 0.360000 ProbAvr: 0.357500 eval_loss: 3.656570
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [35] Loss: 3.0964 Acc: 0.8547 EpochTime: 13.855543
+INFO:root:AvrEval: 0.385399  SegAvr: 0.332500 ProbAvr: 0.330000 eval_loss: 3.664583
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [36] Loss: 3.0876 Acc: 0.8649 EpochTime: 13.735703
+INFO:root:AvrEval: 0.396330  SegAvr: 0.345000 ProbAvr: 0.350000 eval_loss: 3.660251
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [37] Loss: 3.0788 Acc: 0.8739 EpochTime: 14.505838
+INFO:root:AvrEval: 0.408980  SegAvr: 0.352500 ProbAvr: 0.347500 eval_loss: 3.651596
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [38] Loss: 3.0772 Acc: 0.8743 EpochTime: 13.739790
+INFO:root:AvrEval: 0.388292  SegAvr: 0.327500 ProbAvr: 0.330000 eval_loss: 3.661183
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.005000 [39] Loss: 3.0767 Acc: 0.8744 EpochTime: 13.357705
+INFO:root:AvrEval: 0.393253  SegAvr: 0.332500 ProbAvr: 0.340000 eval_loss: 3.658480
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [40] Loss: 3.0745 Acc: 0.8749 EpochTime: 13.918258
+INFO:root:AvrEval: 0.408815  SegAvr: 0.352500 ProbAvr: 0.357500 eval_loss: 3.647010
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [41] Loss: 3.0743 Acc: 0.8751 EpochTime: 14.268684
+INFO:root:AvrEval: 0.409028  SegAvr: 0.347500 ProbAvr: 0.355000 eval_loss: 3.650334
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [42] Loss: 3.0742 Acc: 0.8752 EpochTime: 14.121283
+INFO:root:AvrEval: 0.400942  SegAvr: 0.342500 ProbAvr: 0.350000 eval_loss: 3.653103
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [43] Loss: 3.0742 Acc: 0.8751 EpochTime: 13.541362
+INFO:root:AvrEval: 0.408096  SegAvr: 0.357500 ProbAvr: 0.380000 eval_loss: 3.649854
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [44] Loss: 3.0742 Acc: 0.8752 EpochTime: 14.158829
+INFO:root:AvrEval: 0.396971  SegAvr: 0.360000 ProbAvr: 0.365000 eval_loss: 3.654016
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [45] Loss: 3.0741 Acc: 0.8752 EpochTime: 13.533197
+INFO:root:AvrEval: 0.397592  SegAvr: 0.365000 ProbAvr: 0.362500 eval_loss: 3.654099
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.002500 [46] Loss: 3.0744 Acc: 0.8751 EpochTime: 13.874298
+INFO:root:AvrEval: 0.407990  SegAvr: 0.355000 ProbAvr: 0.360000 eval_loss: 3.647564
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [47] Loss: 3.0735 Acc: 0.8753 EpochTime: 13.970250
+INFO:root:AvrEval: 0.405631  SegAvr: 0.360000 ProbAvr: 0.362500 eval_loss: 3.653695
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [48] Loss: 3.0735 Acc: 0.8753 EpochTime: 14.247972
+INFO:root:AvrEval: 0.407291  SegAvr: 0.350000 ProbAvr: 0.362500 eval_loss: 3.651284
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [49] Loss: 3.0735 Acc: 0.8754 EpochTime: 13.597758
+INFO:root:AvrEval: 0.410708  SegAvr: 0.367500 ProbAvr: 0.365000 eval_loss: 3.646675
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [50] Loss: 3.0734 Acc: 0.8753 EpochTime: 13.448114
+INFO:root:AvrEval: 0.412853  SegAvr: 0.365000 ProbAvr: 0.372500 eval_loss: 3.647732
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [51] Loss: 3.0735 Acc: 0.8754 EpochTime: 14.093146
+INFO:root:AvrEval: 0.408407  SegAvr: 0.350000 ProbAvr: 0.357500 eval_loss: 3.647948
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [52] Loss: 3.0735 Acc: 0.8754 EpochTime: 14.100767
+INFO:root:AvrEval: 0.411455  SegAvr: 0.362500 ProbAvr: 0.372500 eval_loss: 3.647687
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [53] Loss: 3.0733 Acc: 0.8754 EpochTime: 13.486556
+INFO:root:AvrEval: 0.412902  SegAvr: 0.370000 ProbAvr: 0.367500 eval_loss: 3.650498
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [54] Loss: 3.0735 Acc: 0.8753 EpochTime: 13.809039
+INFO:root:AvrEval: 0.407271  SegAvr: 0.355000 ProbAvr: 0.367500 eval_loss: 3.650553
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.001250 [55] Loss: 3.0735 Acc: 0.8754 EpochTime: 13.719570
+INFO:root:AvrEval: 0.403650  SegAvr: 0.362500 ProbAvr: 0.367500 eval_loss: 3.652616
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [56] Loss: 3.0731 Acc: 0.8754 EpochTime: 13.812039
+INFO:root:AvrEval: 0.409475  SegAvr: 0.360000 ProbAvr: 0.357500 eval_loss: 3.646767
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [57] Loss: 3.0731 Acc: 0.8754 EpochTime: 13.761982
+INFO:root:AvrEval: 0.413348  SegAvr: 0.365000 ProbAvr: 0.370000 eval_loss: 3.646405
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [58] Loss: 3.0731 Acc: 0.8755 EpochTime: 13.803706
+INFO:root:AvrEval: 0.408339  SegAvr: 0.360000 ProbAvr: 0.360000 eval_loss: 3.649583
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [59] Loss: 3.0731 Acc: 0.8754 EpochTime: 13.252177
+INFO:root:AvrEval: 0.410018  SegAvr: 0.352500 ProbAvr: 0.357500 eval_loss: 3.648822
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [60] Loss: 3.0731 Acc: 0.8755 EpochTime: 13.941488
+INFO:root:AvrEval: 0.412251  SegAvr: 0.362500 ProbAvr: 0.372500 eval_loss: 3.647233
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [61] Loss: 3.0730 Acc: 0.8755 EpochTime: 13.862455
+INFO:root:AvrEval: 0.413348  SegAvr: 0.357500 ProbAvr: 0.367500 eval_loss: 3.648338
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [62] Loss: 3.0730 Acc: 0.8754 EpochTime: 14.141625
+INFO:root:AvrEval: 0.408339  SegAvr: 0.360000 ProbAvr: 0.357500 eval_loss: 3.650632
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000625 [63] Loss: 3.0730 Acc: 0.8754 EpochTime: 13.513133
+INFO:root:AvrEval: 0.409552  SegAvr: 0.352500 ProbAvr: 0.360000 eval_loss: 3.647599
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [64] Loss: 3.0729 Acc: 0.8755 EpochTime: 14.046937
+INFO:root:AvrEval: 0.411640  SegAvr: 0.362500 ProbAvr: 0.357500 eval_loss: 3.647928
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [65] Loss: 3.0729 Acc: 0.8755 EpochTime: 14.178566
+INFO:root:AvrEval: 0.412465  SegAvr: 0.355000 ProbAvr: 0.357500 eval_loss: 3.648412
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [66] Loss: 3.0728 Acc: 0.8755 EpochTime: 13.808174
+INFO:root:AvrEval: 0.412164  SegAvr: 0.360000 ProbAvr: 0.365000 eval_loss: 3.648317
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [67] Loss: 3.0729 Acc: 0.8755 EpochTime: 13.506198
+INFO:root:AvrEval: 0.410688  SegAvr: 0.350000 ProbAvr: 0.357500 eval_loss: 3.647781
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [68] Loss: 3.0729 Acc: 0.8755 EpochTime: 13.519679
+INFO:root:AvrEval: 0.409950  SegAvr: 0.360000 ProbAvr: 0.367500 eval_loss: 3.648017
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000313 [69] Loss: 3.0728 Acc: 0.8755 EpochTime: 14.098765
+INFO:root:AvrEval: 0.409766  SegAvr: 0.355000 ProbAvr: 0.357500 eval_loss: 3.648579
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [70] Loss: 3.0727 Acc: 0.8755 EpochTime: 13.746179
+INFO:root:AvrEval: 0.410611  SegAvr: 0.355000 ProbAvr: 0.360000 eval_loss: 3.647501
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [71] Loss: 3.0727 Acc: 0.8755 EpochTime: 13.879311
+INFO:root:AvrEval: 0.410407  SegAvr: 0.352500 ProbAvr: 0.362500 eval_loss: 3.648108
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [72] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.906041
+INFO:root:AvrEval: 0.410552  SegAvr: 0.357500 ProbAvr: 0.362500 eval_loss: 3.648014
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [73] Loss: 3.0727 Acc: 0.8755 EpochTime: 13.629777
+INFO:root:AvrEval: 0.411824  SegAvr: 0.357500 ProbAvr: 0.357500 eval_loss: 3.647966
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [74] Loss: 3.0727 Acc: 0.8755 EpochTime: 13.722286
+INFO:root:AvrEval: 0.414076  SegAvr: 0.357500 ProbAvr: 0.365000 eval_loss: 3.647462
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000156 [75] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.696636
+INFO:root:AvrEval: 0.410319  SegAvr: 0.357500 ProbAvr: 0.357500 eval_loss: 3.649141
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [76] Loss: 3.0727 Acc: 0.8755 EpochTime: 13.726459
+INFO:root:AvrEval: 0.413416  SegAvr: 0.357500 ProbAvr: 0.357500 eval_loss: 3.647407
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [77] Loss: 3.0727 Acc: 0.8754 EpochTime: 13.957415
+INFO:root:AvrEval: 0.412513  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647291
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [78] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.367113
+INFO:root:AvrEval: 0.411892  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647871
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [79] Loss: 3.0726 Acc: 0.8755 EpochTime: 14.976194
+INFO:root:AvrEval: 0.412076  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647601
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [80] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.343940
+INFO:root:AvrEval: 0.411941  SegAvr: 0.362500 ProbAvr: 0.367500 eval_loss: 3.647253
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000078 [81] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.651585
+INFO:root:AvrEval: 0.410057  SegAvr: 0.352500 ProbAvr: 0.360000 eval_loss: 3.648927
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [82] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.746462
+INFO:root:AvrEval: 0.411290  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647930
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [83] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.962742
+INFO:root:AvrEval: 0.412892  SegAvr: 0.360000 ProbAvr: 0.357500 eval_loss: 3.647678
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [84] Loss: 3.0726 Acc: 0.8755 EpochTime: 14.142965
+INFO:root:AvrEval: 0.412038  SegAvr: 0.357500 ProbAvr: 0.357500 eval_loss: 3.647615
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [85] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.530650
+INFO:root:AvrEval: 0.411591  SegAvr: 0.362500 ProbAvr: 0.360000 eval_loss: 3.647474
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [86] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.779233
+INFO:root:AvrEval: 0.412921  SegAvr: 0.360000 ProbAvr: 0.360000 eval_loss: 3.647990
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000039 [87] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.243623
+INFO:root:AvrEval: 0.412086  SegAvr: 0.357500 ProbAvr: 0.362500 eval_loss: 3.648170
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [88] Loss: 3.0725 Acc: 0.8755 EpochTime: 14.318741
+INFO:root:AvrEval: 0.413494  SegAvr: 0.357500 ProbAvr: 0.362500 eval_loss: 3.647104
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [89] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.679333
+INFO:root:AvrEval: 0.411834  SegAvr: 0.355000 ProbAvr: 0.357500 eval_loss: 3.647506
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [90] Loss: 3.0725 Acc: 0.8755 EpochTime: 14.107799
+INFO:root:AvrEval: 0.411106  SegAvr: 0.360000 ProbAvr: 0.362500 eval_loss: 3.648258
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [91] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.669172
+INFO:root:AvrEval: 0.411746  SegAvr: 0.360000 ProbAvr: 0.360000 eval_loss: 3.647607
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [92] Loss: 3.0726 Acc: 0.8755 EpochTime: 13.828507
+INFO:root:AvrEval: 0.411931  SegAvr: 0.360000 ProbAvr: 0.362500 eval_loss: 3.647376
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000020 [93] Loss: 3.0725 Acc: 0.8754 EpochTime: 13.678116
+INFO:root:AvrEval: 0.412678  SegAvr: 0.360000 ProbAvr: 0.360000 eval_loss: 3.646851
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [94] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.839221
+INFO:root:AvrEval: 0.412717  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647129
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [95] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.298280
+INFO:root:AvrEval: 0.412154  SegAvr: 0.357500 ProbAvr: 0.360000 eval_loss: 3.647999
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [96] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.790067
+INFO:root:AvrEval: 0.411678  SegAvr: 0.360000 ProbAvr: 0.362500 eval_loss: 3.647487
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [97] Loss: 3.0725 Acc: 0.8755 EpochTime: 14.458789
+INFO:root:AvrEval: 0.413484  SegAvr: 0.360000 ProbAvr: 0.360000 eval_loss: 3.647286
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [98] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.094316
+INFO:root:AvrEval: 0.412843  SegAvr: 0.355000 ProbAvr: 0.357500 eval_loss: 3.647029
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000010 [99] Loss: 3.0725 Acc: 0.8755 EpochTime: 14.069181
+INFO:root:AvrEval: 0.411873  SegAvr: 0.360000 ProbAvr: 0.362500 eval_loss: 3.647689
+INFO:root:-----------------------------------------------------------
+INFO:root:Train lr:0.000005 [100] Loss: 3.0725 Acc: 0.8755 EpochTime: 13.792161
+INFO:root:AvrEval: 0.412484  SegAvr: 0.362500 ProbAvr: 0.360000 eval_loss: 3.647401
+INFO:root:-----------------------------------------------------------
+INFO:root:[Done]
+INFO:root:-----------------------------------------------------------

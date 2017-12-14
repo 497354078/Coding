@@ -1,0 +1,16 @@
+INFO:root:-----------------------------------------------------------
+INFO:root:epoch: 0 AvrEval: 0.628110 SegAvr: 0.425000 ProbAvr: 0.425000 eval_loss: 2.033289
+INFO:root:epoch: 10 AvrEval: 0.651761 SegAvr: 0.512500 ProbAvr: 0.500000 eval_loss: 1.950732
+INFO:root:epoch: 20 AvrEval: 0.672915 SegAvr: 0.612500 ProbAvr: 0.637500 eval_loss: 1.853254
+INFO:root:epoch: 30 AvrEval: 0.712465 SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.819016
+INFO:root:epoch: 40 AvrEval: 0.712684 SegAvr: 0.725000 ProbAvr: 0.700000 eval_loss: 1.786175
+INFO:root:epoch: 50 AvrEval: 0.698406 SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.771223
+INFO:root:epoch: 60 AvrEval: 0.720874 SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.758320
+INFO:root:epoch: 70 AvrEval: 0.717765 SegAvr: 0.750000 ProbAvr: 0.737500 eval_loss: 1.753308
+INFO:root:epoch: 80 AvrEval: 0.734452 SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.746027
+INFO:root:epoch: 90 AvrEval: 0.722714 SegAvr: 0.762500 ProbAvr: 0.737500 eval_loss: 1.749676
+INFO:root:epoch: 100 AvrEval: 0.732568 SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.742342
+INFO:root:epoch: 110 AvrEval: 0.726305 SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.747238
+INFO:root:epoch: 120 AvrEval: 0.724553 SegAvr: 0.775000 ProbAvr: 0.750000 eval_loss: 1.748834
+INFO:root:epoch: 130 AvrEval: 0.724947 SegAvr: 0.775000 ProbAvr: 0.750000 eval_loss: 1.752156
+INFO:root:epoch: 140 AvrEval: 0.722320 SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.747378
