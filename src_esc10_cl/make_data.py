@@ -59,9 +59,9 @@ def process(files, mode):
 if __name__ == '__main__':
     print '------------------------------------------------------------'
     dims = 64
-    fold = 'fold0'
-    feaPath = '../feature/feature_ESC-10/22050_logspec'
-    dataPath = '../data/data_ESC-10/{:s}'.format(fold)
+    fold = 'fold4'
+    feaPath = '../../feature/feature_ESC-10/22050_logspec'
+    dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
     trainFile = 'files/evaluate-setup/{:s}_train.txt'.format(fold)
     validFile = 'files/evaluate-setup/{:s}_valid.txt'.format(fold)
     testFile = 'files/evaluate-setup/{:s}_test.txt'.format(fold)

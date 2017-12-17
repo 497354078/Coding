@@ -1,26 +1,45 @@
 import os
 import sys
 import time
+import copy
 import pydub
 import numpy
 import numpy as np
 import logging
+import argparse
 import cPickle
 import cPickle as pickle
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 
+import sklearn
+import sklearn.metrics
+
+from sklearn import preprocessing
+
+from sklearn.decomposition import PCA
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as LDA
+
+from sklearn.metrics.pairwise import manhattan_distances
+from sklearn.metrics.pairwise import cosine_distances
+from sklearn.metrics.pairwise import euclidean_distances
+
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.metrics import roc_curve, roc_auc_score
+
 import torch
 import torch.autograd as autograd
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
 from torchvision import transforms
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.autograd import Variable
 from torch.utils.data import Dataset, DataLoader
 
+def rePrint(string):
+    print string
+    logging.info(string)
 
 def check_file(files):
     if not os.path.isfile(files):

@@ -1,0 +1,401 @@
+2017-12-16 10:19:51,987 : -----------------------------------------------------------------
+2017-12-16 10:20:28,546 : -----------------------------------------------------------------
+2017-12-16 10:20:38,072 : AvrEval: 0.503779  SegAvr: 0.462500 ProbAvr: 0.462500 eval_loss: 2.028643 time: 1.022783
+2017-12-16 10:20:38,397 : AvrEval: 0.528054  SegAvr: 0.562500 ProbAvr: 0.550000 eval_loss: 1.894067 time: 0.303479
+2017-12-16 10:20:38,714 : AvrEval: 0.467746  SegAvr: 0.550000 ProbAvr: 0.562500 eval_loss: 2.282807 time: 0.297927
+2017-12-16 10:20:39,030 : AvrEval: 0.632434  SegAvr: 0.662500 ProbAvr: 0.675000 eval_loss: 1.953413 time: 0.298657
+2017-12-16 10:20:39,345 : AvrEval: 0.640592  SegAvr: 0.687500 ProbAvr: 0.700000 eval_loss: 1.840763 time: 0.296271
+2017-12-16 10:20:39,660 : AvrEval: 0.604319  SegAvr: 0.600000 ProbAvr: 0.600000 eval_loss: 2.119676 time: 0.296842
+2017-12-16 10:20:39,981 : AvrEval: 0.640952  SegAvr: 0.637500 ProbAvr: 0.662500 eval_loss: 1.838253 time: 0.298115
+2017-12-16 10:20:40,296 : AvrEval: 0.654789  SegAvr: 0.662500 ProbAvr: 0.662500 eval_loss: 1.885803 time: 0.298327
+2017-12-16 10:20:40,610 : AvrEval: 0.622116  SegAvr: 0.662500 ProbAvr: 0.675000 eval_loss: 1.916670 time: 0.297770
+2017-12-16 10:20:40,924 : AvrEval: 0.590282  SegAvr: 0.637500 ProbAvr: 0.662500 eval_loss: 1.859681 time: 0.297178
+2017-12-16 10:20:41,240 : AvrEval: 0.665027  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.874658 time: 0.297799
+2017-12-16 10:20:41,555 : AvrEval: 0.589202  SegAvr: 0.575000 ProbAvr: 0.525000 eval_loss: 2.226510 time: 0.297824
+2017-12-16 10:20:41,870 : AvrEval: 0.644311  SegAvr: 0.662500 ProbAvr: 0.662500 eval_loss: 1.917374 time: 0.297832
+2017-12-16 10:20:42,185 : AvrEval: 0.610918  SegAvr: 0.650000 ProbAvr: 0.637500 eval_loss: 1.890418 time: 0.298715
+2017-12-16 10:20:42,500 : AvrEval: 0.657708  SegAvr: 0.700000 ProbAvr: 0.700000 eval_loss: 1.834450 time: 0.297930
+2017-12-16 10:20:42,815 : AvrEval: 0.616477  SegAvr: 0.650000 ProbAvr: 0.637500 eval_loss: 1.877084 time: 0.298129
+2017-12-16 10:20:43,132 : AvrEval: 0.634673  SegAvr: 0.650000 ProbAvr: 0.650000 eval_loss: 1.814775 time: 0.300704
+2017-12-16 10:20:43,448 : AvrEval: 0.615397  SegAvr: 0.662500 ProbAvr: 0.662500 eval_loss: 2.000703 time: 0.299140
+2017-12-16 10:20:43,765 : AvrEval: 0.657828  SegAvr: 0.687500 ProbAvr: 0.700000 eval_loss: 1.897165 time: 0.299404
+2017-12-16 10:20:44,081 : AvrEval: 0.652030  SegAvr: 0.700000 ProbAvr: 0.675000 eval_loss: 1.730142 time: 0.297881
+2017-12-16 10:20:44,395 : AvrEval: 0.670786  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.739010 time: 0.298100
+2017-12-16 10:20:44,709 : AvrEval: 0.675025  SegAvr: 0.700000 ProbAvr: 0.687500 eval_loss: 1.684593 time: 0.296738
+2017-12-16 10:20:45,022 : AvrEval: 0.699180  SegAvr: 0.687500 ProbAvr: 0.687500 eval_loss: 1.817747 time: 0.296806
+2017-12-16 10:20:45,348 : AvrEval: 0.668706  SegAvr: 0.687500 ProbAvr: 0.700000 eval_loss: 1.870666 time: 0.308144
+2017-12-16 10:20:45,665 : AvrEval: 0.683983  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.721454 time: 0.299615
+2017-12-16 10:20:45,978 : AvrEval: 0.642831  SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.884795 time: 0.296666
+2017-12-16 10:20:46,292 : AvrEval: 0.662188  SegAvr: 0.712500 ProbAvr: 0.725000 eval_loss: 1.788251 time: 0.296808
+2017-12-16 10:20:46,607 : AvrEval: 0.676545  SegAvr: 0.675000 ProbAvr: 0.687500 eval_loss: 1.872099 time: 0.298407
+2017-12-16 10:20:46,924 : AvrEval: 0.608678  SegAvr: 0.650000 ProbAvr: 0.612500 eval_loss: 1.975863 time: 0.297439
+2017-12-16 10:20:47,238 : AvrEval: 0.668386  SegAvr: 0.662500 ProbAvr: 0.662500 eval_loss: 1.869094 time: 0.297304
+2017-12-16 10:20:47,238 : [Done]
+2017-12-16 10:20:47,238 : -----------------------------------------------------------------
+2017-12-16 10:28:03,483 : -----------------------------------------------------------------
+2017-12-16 10:29:20,465 : -----------------------------------------------------------------
+2017-12-16 10:29:32,036 : AvrEval: 0.556809  SegAvr: 0.562500 ProbAvr: 0.562500 eval_loss: 1.859471 time: 1.517858
+2017-12-16 10:29:32,412 : AvrEval: 0.585003  SegAvr: 0.637500 ProbAvr: 0.637500 eval_loss: 1.878952 time: 0.332001
+2017-12-16 10:29:32,795 : AvrEval: 0.627994  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.763468 time: 0.341334
+2017-12-16 10:29:33,149 : AvrEval: 0.630194  SegAvr: 0.662500 ProbAvr: 0.650000 eval_loss: 1.867785 time: 0.333478
+2017-12-16 10:29:33,522 : AvrEval: 0.632913  SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.835334 time: 0.337787
+2017-12-16 10:29:33,880 : AvrEval: 0.669346  SegAvr: 0.687500 ProbAvr: 0.687500 eval_loss: 1.827206 time: 0.326087
+2017-12-16 10:29:34,249 : AvrEval: 0.678064  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.808993 time: 0.331985
+2017-12-16 10:29:34,605 : AvrEval: 0.656949  SegAvr: 0.675000 ProbAvr: 0.687500 eval_loss: 1.802361 time: 0.323292
+2017-12-16 10:29:34,985 : AvrEval: 0.648310  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.991255 time: 0.343443
+2017-12-16 10:29:35,339 : AvrEval: 0.644471  SegAvr: 0.712500 ProbAvr: 0.687500 eval_loss: 1.591523 time: 0.327574
+2017-12-16 10:29:35,701 : AvrEval: 0.649670  SegAvr: 0.737500 ProbAvr: 0.712500 eval_loss: 1.727345 time: 0.330107
+2017-12-16 10:29:36,120 : AvrEval: 0.679864  SegAvr: 0.712500 ProbAvr: 0.700000 eval_loss: 1.818011 time: 0.391274
+2017-12-16 10:29:36,551 : AvrEval: 0.636633  SegAvr: 0.650000 ProbAvr: 0.650000 eval_loss: 2.289552 time: 0.399176
+2017-12-16 10:29:36,947 : AvrEval: 0.665267  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.854352 time: 0.355757
+2017-12-16 10:29:37,309 : AvrEval: 0.682064  SegAvr: 0.737500 ProbAvr: 0.750000 eval_loss: 1.652003 time: 0.324671
+2017-12-16 10:29:37,669 : AvrEval: 0.660508  SegAvr: 0.712500 ProbAvr: 0.725000 eval_loss: 1.717320 time: 0.319549
+2017-12-16 10:29:38,027 : AvrEval: 0.625515  SegAvr: 0.712500 ProbAvr: 0.725000 eval_loss: 1.772527 time: 0.332427
+2017-12-16 10:29:38,372 : AvrEval: 0.644071  SegAvr: 0.687500 ProbAvr: 0.700000 eval_loss: 1.954798 time: 0.320190
+2017-12-16 10:29:38,744 : AvrEval: 0.648510  SegAvr: 0.687500 ProbAvr: 0.687500 eval_loss: 1.669885 time: 0.328447
+2017-12-16 10:29:39,141 : AvrEval: 0.680344  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.619771 time: 0.326516
+2017-12-16 10:29:39,513 : AvrEval: 0.662108  SegAvr: 0.725000 ProbAvr: 0.712500 eval_loss: 1.877476 time: 0.323801
+2017-12-16 10:29:39,889 : AvrEval: 0.680104  SegAvr: 0.725000 ProbAvr: 0.725000 eval_loss: 1.768708 time: 0.312217
+2017-12-16 10:29:40,353 : AvrEval: 0.665427  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.825185 time: 0.307557
+2017-12-16 10:29:40,828 : AvrEval: 0.689462  SegAvr: 0.687500 ProbAvr: 0.662500 eval_loss: 1.964949 time: 0.327526
+2017-12-16 10:29:41,248 : AvrEval: 0.679864  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.876037 time: 0.334952
+2017-12-16 10:29:41,649 : AvrEval: 0.678584  SegAvr: 0.700000 ProbAvr: 0.687500 eval_loss: 1.848510 time: 0.329495
+2017-12-16 10:29:42,036 : AvrEval: 0.710778  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.707461 time: 0.326556
+2017-12-16 10:29:42,422 : AvrEval: 0.633593  SegAvr: 0.700000 ProbAvr: 0.700000 eval_loss: 1.761776 time: 0.327197
+2017-12-16 10:29:42,860 : AvrEval: 0.681344  SegAvr: 0.725000 ProbAvr: 0.725000 eval_loss: 1.876213 time: 0.383690
+2017-12-16 10:29:43,263 : AvrEval: 0.690262  SegAvr: 0.725000 ProbAvr: 0.725000 eval_loss: 1.712299 time: 0.335853
+2017-12-16 10:29:43,263 : [Done]
+2017-12-16 10:29:43,263 : -----------------------------------------------------------------
+2017-12-16 10:47:08,538 : -----------------------------------------------------------------
+2017-12-16 10:47:19,463 : AvrEval: 0.529014  SegAvr: 0.400000 ProbAvr: 0.412500 eval_loss: 2.054841 time: 1.199458
+2017-12-16 10:47:19,818 : AvrEval: 0.607159  SegAvr: 0.562500 ProbAvr: 0.575000 eval_loss: 1.923257 time: 0.325688
+2017-12-16 10:47:20,085 : AvrEval: 0.626915  SegAvr: 0.600000 ProbAvr: 0.587500 eval_loss: 1.901119 time: 0.248630
+2017-12-16 10:47:20,353 : AvrEval: 0.660268  SegAvr: 0.600000 ProbAvr: 0.600000 eval_loss: 1.883625 time: 0.254395
+2017-12-16 10:47:20,667 : AvrEval: 0.668186  SegAvr: 0.587500 ProbAvr: 0.612500 eval_loss: 1.859992 time: 0.278375
+2017-12-16 10:47:20,954 : AvrEval: 0.695421  SegAvr: 0.662500 ProbAvr: 0.675000 eval_loss: 1.812896 time: 0.262453
+2017-12-16 10:47:21,348 : AvrEval: 0.713057  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.789750 time: 0.356131
+2017-12-16 10:47:21,600 : AvrEval: 0.704459  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.798911 time: 0.230263
+2017-12-16 10:47:21,988 : AvrEval: 0.736453  SegAvr: 0.725000 ProbAvr: 0.737500 eval_loss: 1.772910 time: 0.249562
+2017-12-16 10:47:22,234 : AvrEval: 0.727774  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.801546 time: 0.228076
+2017-12-16 10:47:22,551 : AvrEval: 0.649390  SegAvr: 0.637500 ProbAvr: 0.625000 eval_loss: 1.870810 time: 0.290633
+2017-12-16 10:47:23,010 : AvrEval: 0.709738  SegAvr: 0.725000 ProbAvr: 0.712500 eval_loss: 1.783521 time: 0.432715
+2017-12-16 10:47:23,286 : AvrEval: 0.671226  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.815918 time: 0.246494
+2017-12-16 10:47:23,577 : AvrEval: 0.674305  SegAvr: 0.762500 ProbAvr: 0.737500 eval_loss: 1.794996 time: 0.264602
+2017-12-16 10:47:23,931 : AvrEval: 0.734613  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.733871 time: 0.340401
+2017-12-16 10:47:24,181 : AvrEval: 0.759008  SegAvr: 0.825000 ProbAvr: 0.812500 eval_loss: 1.727744 time: 0.227673
+2017-12-16 10:47:24,429 : AvrEval: 0.741292  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.743980 time: 0.224488
+2017-12-16 10:47:24,737 : AvrEval: 0.741812  SegAvr: 0.762500 ProbAvr: 0.775000 eval_loss: 1.739154 time: 0.259820
+2017-12-16 10:47:25,011 : AvrEval: 0.734533  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.740111 time: 0.250265
+2017-12-16 10:47:25,311 : AvrEval: 0.746611  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.731773 time: 0.280359
+2017-12-16 10:47:25,663 : AvrEval: 0.741372  SegAvr: 0.800000 ProbAvr: 0.787500 eval_loss: 1.726003 time: 0.335284
+2017-12-16 10:47:25,950 : AvrEval: 0.727215  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.750037 time: 0.260692
+2017-12-16 10:47:26,232 : AvrEval: 0.732374  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.737700 time: 0.255213
+2017-12-16 10:47:26,495 : AvrEval: 0.731094  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.742319 time: 0.240545
+2017-12-16 10:47:26,876 : AvrEval: 0.740052  SegAvr: 0.800000 ProbAvr: 0.787500 eval_loss: 1.742990 time: 0.225717
+2017-12-16 10:47:27,147 : AvrEval: 0.726215  SegAvr: 0.812500 ProbAvr: 0.825000 eval_loss: 1.738981 time: 0.253701
+2017-12-16 10:47:27,428 : AvrEval: 0.746171  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.733269 time: 0.261995
+2017-12-16 10:47:27,680 : AvrEval: 0.751410  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.725981 time: 0.233543
+2017-12-16 10:47:27,975 : AvrEval: 0.747331  SegAvr: 0.800000 ProbAvr: 0.775000 eval_loss: 1.733465 time: 0.281503
+2017-12-16 10:47:28,267 : AvrEval: 0.737333  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.735044 time: 0.266030
+2017-12-16 10:47:28,267 : [Done]
+2017-12-16 10:47:28,267 : -----------------------------------------------------------------
+2017-12-16 10:54:53,840 : -----------------------------------------------------------------
+2017-12-16 10:55:06,792 : AvrEval: 0.667267  SegAvr: 0.587500 ProbAvr: 0.587500 eval_loss: 1.914185 time: 2.213945
+2017-12-16 10:55:07,576 : AvrEval: 0.698060  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.813212 time: 0.747389
+2017-12-16 10:55:08,359 : AvrEval: 0.707658  SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.803548 time: 0.758174
+2017-12-16 10:55:09,170 : AvrEval: 0.730654  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.770097 time: 0.778705
+2017-12-16 10:55:09,943 : AvrEval: 0.721536  SegAvr: 0.750000 ProbAvr: 0.737500 eval_loss: 1.746924 time: 0.714677
+2017-12-16 10:55:10,672 : AvrEval: 0.735453  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.754650 time: 0.703008
+2017-12-16 10:55:11,476 : AvrEval: 0.740532  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.733091 time: 0.780163
+2017-12-16 10:55:12,272 : AvrEval: 0.727774  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.743594 time: 0.764605
+2017-12-16 10:55:13,137 : AvrEval: 0.730374  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.748523 time: 0.823096
+2017-12-16 10:55:13,892 : AvrEval: 0.728454  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752533 time: 0.711784
+2017-12-16 10:55:14,638 : AvrEval: 0.748570  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.724599 time: 0.712294
+2017-12-16 10:55:15,427 : AvrEval: 0.742132  SegAvr: 0.750000 ProbAvr: 0.762500 eval_loss: 1.734348 time: 0.750380
+2017-12-16 10:55:16,245 : AvrEval: 0.741732  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.740912 time: 0.774559
+2017-12-16 10:55:17,021 : AvrEval: 0.744011  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.737726 time: 0.732899
+2017-12-16 10:55:17,794 : AvrEval: 0.746731  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.741627 time: 0.741335
+2017-12-16 10:55:18,531 : AvrEval: 0.735213  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.744295 time: 0.714409
+2017-12-16 10:55:19,325 : AvrEval: 0.742292  SegAvr: 0.775000 ProbAvr: 0.750000 eval_loss: 1.745698 time: 0.760403
+2017-12-16 10:55:20,151 : AvrEval: 0.744131  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.742910 time: 0.784305
+2017-12-16 10:55:20,927 : AvrEval: 0.736653  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752818 time: 0.719661
+2017-12-16 10:55:21,703 : AvrEval: 0.733973  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.744834 time: 0.740465
+2017-12-16 10:55:22,481 : AvrEval: 0.725815  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.751892 time: 0.751484
+2017-12-16 10:55:23,261 : AvrEval: 0.731934  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.748207 time: 0.735658
+2017-12-16 10:55:24,033 : AvrEval: 0.733813  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.749598 time: 0.735469
+2017-12-16 10:55:24,809 : AvrEval: 0.734653  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746937 time: 0.749273
+2017-12-16 10:55:25,658 : AvrEval: 0.735933  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748206 time: 0.768628
+2017-12-16 10:55:26,456 : AvrEval: 0.729854  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746026 time: 0.759670
+2017-12-16 10:55:27,208 : AvrEval: 0.734373  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.745633 time: 0.724420
+2017-12-16 10:55:27,978 : AvrEval: 0.722775  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.749112 time: 0.719846
+2017-12-16 10:55:28,742 : AvrEval: 0.732773  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748366 time: 0.729207
+2017-12-16 10:55:29,493 : AvrEval: 0.745851  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.738292 time: 0.728200
+2017-12-16 10:55:29,493 : [Done]
+2017-12-16 10:55:29,493 : -----------------------------------------------------------------
+2017-12-16 10:56:13,979 : -----------------------------------------------------------------
+2017-12-16 10:56:42,334 : -----------------------------------------------------------------
+2017-12-16 10:56:54,585 : Epoch: 1 AvrEval: 0.529014  SegAvr: 0.400000 ProbAvr: 0.412500 eval_loss: 2.054841 time: 1.605912
+2017-12-16 10:56:54,886 : Epoch: 2 AvrEval: 0.607159  SegAvr: 0.562500 ProbAvr: 0.575000 eval_loss: 1.923257 time: 0.286193
+2017-12-16 10:56:55,186 : Epoch: 3 AvrEval: 0.626915  SegAvr: 0.600000 ProbAvr: 0.587500 eval_loss: 1.901119 time: 0.275684
+2017-12-16 10:56:55,444 : Epoch: 4 AvrEval: 0.660268  SegAvr: 0.600000 ProbAvr: 0.600000 eval_loss: 1.883625 time: 0.235533
+2017-12-16 10:56:55,789 : Epoch: 5 AvrEval: 0.668186  SegAvr: 0.587500 ProbAvr: 0.612500 eval_loss: 1.859992 time: 0.277342
+2017-12-16 10:56:56,085 : Epoch: 6 AvrEval: 0.695421  SegAvr: 0.662500 ProbAvr: 0.675000 eval_loss: 1.812896 time: 0.271632
+2017-12-16 10:56:56,389 : Epoch: 7 AvrEval: 0.713057  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.789750 time: 0.280747
+2017-12-16 10:56:56,669 : Epoch: 8 AvrEval: 0.704459  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.798911 time: 0.253359
+2017-12-16 10:56:56,955 : Epoch: 9 AvrEval: 0.736453  SegAvr: 0.725000 ProbAvr: 0.737500 eval_loss: 1.772910 time: 0.265248
+2017-12-16 10:56:57,274 : Epoch: 10 AvrEval: 0.727774  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.801546 time: 0.294784
+2017-12-16 10:56:57,566 : Epoch: 11 AvrEval: 0.649390  SegAvr: 0.637500 ProbAvr: 0.625000 eval_loss: 1.870810 time: 0.273042
+2017-12-16 10:56:57,875 : Epoch: 12 AvrEval: 0.709738  SegAvr: 0.725000 ProbAvr: 0.712500 eval_loss: 1.783521 time: 0.292102
+2017-12-16 10:56:58,189 : Epoch: 13 AvrEval: 0.671226  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.815918 time: 0.284189
+2017-12-16 10:56:58,513 : Epoch: 14 AvrEval: 0.674305  SegAvr: 0.762500 ProbAvr: 0.737500 eval_loss: 1.794996 time: 0.291287
+2017-12-16 10:56:58,961 : Epoch: 15 AvrEval: 0.734613  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.733871 time: 0.421055
+2017-12-16 10:56:59,288 : Epoch: 16 AvrEval: 0.759008  SegAvr: 0.825000 ProbAvr: 0.812500 eval_loss: 1.727744 time: 0.306266
+2017-12-16 10:57:00,048 : Epoch: 17 AvrEval: 0.741292  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.743980 time: 0.734972
+2017-12-16 10:57:00,302 : Epoch: 18 AvrEval: 0.741812  SegAvr: 0.762500 ProbAvr: 0.775000 eval_loss: 1.739154 time: 0.238543
+2017-12-16 10:57:00,563 : Epoch: 19 AvrEval: 0.734533  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.740111 time: 0.231130
+2017-12-16 10:57:00,908 : Epoch: 20 AvrEval: 0.746611  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.731773 time: 0.219514
+2017-12-16 10:57:01,211 : Epoch: 21 AvrEval: 0.741372  SegAvr: 0.800000 ProbAvr: 0.787500 eval_loss: 1.726003 time: 0.232395
+2017-12-16 10:57:01,523 : Epoch: 22 AvrEval: 0.727215  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.750037 time: 0.280143
+2017-12-16 10:57:01,813 : Epoch: 23 AvrEval: 0.732374  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.737700 time: 0.269966
+2017-12-16 10:57:02,069 : Epoch: 24 AvrEval: 0.731094  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.742319 time: 0.232173
+2017-12-16 10:57:02,320 : Epoch: 25 AvrEval: 0.740052  SegAvr: 0.800000 ProbAvr: 0.787500 eval_loss: 1.742990 time: 0.226186
+2017-12-16 10:57:02,579 : Epoch: 26 AvrEval: 0.726215  SegAvr: 0.812500 ProbAvr: 0.825000 eval_loss: 1.738981 time: 0.238981
+2017-12-16 10:57:02,847 : Epoch: 27 AvrEval: 0.746171  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.733269 time: 0.250492
+2017-12-16 10:57:03,158 : Epoch: 28 AvrEval: 0.751410  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.725981 time: 0.280457
+2017-12-16 10:57:03,484 : Epoch: 29 AvrEval: 0.747331  SegAvr: 0.800000 ProbAvr: 0.775000 eval_loss: 1.733465 time: 0.280457
+2017-12-16 10:57:03,819 : Epoch: 30 AvrEval: 0.737333  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.735044 time: 0.313545
+2017-12-16 10:57:03,820 : [Done]
+2017-12-16 10:57:03,820 : -----------------------------------------------------------------
+2017-12-16 10:57:20,137 : -----------------------------------------------------------------
+2017-12-16 10:57:30,986 : -----------------------------------------------------------------
+2017-12-16 10:57:45,011 : Epoch: 1 AvrEval: 0.667267  SegAvr: 0.587500 ProbAvr: 0.587500 eval_loss: 1.914185 time: 2.167678
+2017-12-16 10:57:45,798 : Epoch: 2 AvrEval: 0.698060  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.813212 time: 0.748365
+2017-12-16 10:57:46,641 : Epoch: 3 AvrEval: 0.707658  SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.803548 time: 0.741212
+2017-12-16 10:57:47,432 : Epoch: 4 AvrEval: 0.730654  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.770097 time: 0.757823
+2017-12-16 10:57:48,235 : Epoch: 5 AvrEval: 0.721536  SegAvr: 0.750000 ProbAvr: 0.737500 eval_loss: 1.746924 time: 0.755159
+2017-12-16 10:57:49,092 : Epoch: 6 AvrEval: 0.735453  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.754650 time: 0.775339
+2017-12-16 10:57:49,913 : Epoch: 7 AvrEval: 0.740532  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.733091 time: 0.791997
+2017-12-16 10:57:50,730 : Epoch: 8 AvrEval: 0.727774  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.743594 time: 0.787987
+2017-12-16 10:57:51,525 : Epoch: 9 AvrEval: 0.730374  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.748523 time: 0.760039
+2017-12-16 10:57:52,330 : Epoch: 10 AvrEval: 0.728454  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752533 time: 0.770310
+2017-12-16 10:57:53,134 : Epoch: 11 AvrEval: 0.748570  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.724599 time: 0.764804
+2017-12-16 10:57:53,908 : Epoch: 12 AvrEval: 0.742132  SegAvr: 0.750000 ProbAvr: 0.762500 eval_loss: 1.734348 time: 0.745399
+2017-12-16 10:57:54,701 : Epoch: 13 AvrEval: 0.741732  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.740912 time: 0.749494
+2017-12-16 10:57:55,473 : Epoch: 14 AvrEval: 0.744011  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.737726 time: 0.744611
+2017-12-16 10:57:56,233 : Epoch: 15 AvrEval: 0.746731  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.741627 time: 0.730416
+2017-12-16 10:57:57,013 : Epoch: 16 AvrEval: 0.735213  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.744295 time: 0.740822
+2017-12-16 10:57:57,791 : Epoch: 17 AvrEval: 0.742292  SegAvr: 0.775000 ProbAvr: 0.750000 eval_loss: 1.745698 time: 0.747256
+2017-12-16 10:57:58,558 : Epoch: 18 AvrEval: 0.744131  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.742910 time: 0.724596
+2017-12-16 10:57:59,326 : Epoch: 19 AvrEval: 0.736653  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752818 time: 0.732078
+2017-12-16 10:58:00,144 : Epoch: 20 AvrEval: 0.733973  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.744834 time: 0.785891
+2017-12-16 10:58:00,926 : Epoch: 21 AvrEval: 0.725815  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.751892 time: 0.736937
+2017-12-16 10:58:01,722 : Epoch: 22 AvrEval: 0.731934  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.748207 time: 0.712359
+2017-12-16 10:58:02,557 : Epoch: 23 AvrEval: 0.733813  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.749598 time: 0.743917
+2017-12-16 10:58:03,328 : Epoch: 24 AvrEval: 0.734653  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746937 time: 0.746373
+2017-12-16 10:58:04,121 : Epoch: 25 AvrEval: 0.735933  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748206 time: 0.765156
+2017-12-16 10:58:04,900 : Epoch: 26 AvrEval: 0.729854  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746026 time: 0.741129
+2017-12-16 10:58:05,631 : Epoch: 27 AvrEval: 0.734373  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.745633 time: 0.708377
+2017-12-16 10:58:06,365 : Epoch: 28 AvrEval: 0.722775  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.749112 time: 0.692275
+2017-12-16 10:58:07,157 : Epoch: 29 AvrEval: 0.732773  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748366 time: 0.729503
+2017-12-16 10:58:07,933 : Epoch: 30 AvrEval: 0.745851  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.738292 time: 0.752083
+2017-12-16 10:58:07,934 : [Done]
+2017-12-16 10:58:07,934 : -----------------------------------------------------------------
+2017-12-16 18:58:28,087 : -----------------------------------------------------------------
+2017-12-16 18:58:38,945 : -----------------------------------------------------------------
+2017-12-16 18:58:43,267 : Epoch: 1 AvrEval: 0.786032  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.798684 time: 1.667927
+2017-12-16 18:58:43,998 : Epoch: 2 AvrEval: 0.801647  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.739615 time: 0.710824
+2017-12-16 18:58:44,727 : Epoch: 3 AvrEval: 0.780446  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.760397 time: 0.706703
+2017-12-16 18:58:45,460 : Epoch: 4 AvrEval: 0.815999  SegAvr: 0.887500 ProbAvr: 0.887500 eval_loss: 1.671125 time: 0.709501
+2017-12-16 18:58:46,191 : Epoch: 5 AvrEval: 0.857871  SegAvr: 0.900000 ProbAvr: 0.887500 eval_loss: 1.639711 time: 0.709448
+2017-12-16 18:58:46,913 : Epoch: 6 AvrEval: 0.857382  SegAvr: 0.875000 ProbAvr: 0.862500 eval_loss: 1.644938 time: 0.698693
+2017-12-16 18:58:47,649 : Epoch: 7 AvrEval: 0.899213  SegAvr: 0.937500 ProbAvr: 0.900000 eval_loss: 1.610192 time: 0.714223
+2017-12-16 18:58:48,374 : Epoch: 8 AvrEval: 0.860970  SegAvr: 0.875000 ProbAvr: 0.875000 eval_loss: 1.647958 time: 0.703693
+2017-12-16 18:58:49,096 : Epoch: 9 AvrEval: 0.871040  SegAvr: 0.887500 ProbAvr: 0.900000 eval_loss: 1.641430 time: 0.701860
+2017-12-16 18:58:49,837 : Epoch: 10 AvrEval: 0.888123  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.629995 time: 0.719641
+2017-12-16 18:58:50,563 : Epoch: 11 AvrEval: 0.659233  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.820607 time: 0.705885
+2017-12-16 18:58:51,314 : Epoch: 12 AvrEval: 0.875566  SegAvr: 0.887500 ProbAvr: 0.887500 eval_loss: 1.629498 time: 0.728705
+2017-12-16 18:58:52,037 : Epoch: 13 AvrEval: 0.892282  SegAvr: 0.925000 ProbAvr: 0.937500 eval_loss: 1.630298 time: 0.702289
+2017-12-16 18:58:52,784 : Epoch: 14 AvrEval: 0.881314  SegAvr: 0.900000 ProbAvr: 0.912500 eval_loss: 1.629929 time: 0.726924
+2017-12-16 18:58:53,524 : Epoch: 15 AvrEval: 0.888776  SegAvr: 0.900000 ProbAvr: 0.912500 eval_loss: 1.630722 time: 0.718261
+2017-12-16 18:58:54,258 : Epoch: 16 AvrEval: 0.907164  SegAvr: 0.925000 ProbAvr: 0.937500 eval_loss: 1.612586 time: 0.712739
+2017-12-16 18:58:55,002 : Epoch: 17 AvrEval: 0.496799  SegAvr: 0.612500 ProbAvr: 0.600000 eval_loss: 1.918386 time: 0.721897
+2017-12-16 18:58:55,726 : Epoch: 18 AvrEval: 0.895503  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.623282 time: 0.702405
+2017-12-16 18:58:56,454 : Epoch: 19 AvrEval: 0.904391  SegAvr: 0.925000 ProbAvr: 0.937500 eval_loss: 1.622467 time: 0.706440
+2017-12-16 18:58:57,203 : Epoch: 20 AvrEval: 0.911281  SegAvr: 0.937500 ProbAvr: 0.950000 eval_loss: 1.616484 time: 0.726412
+2017-12-16 18:58:57,927 : Epoch: 21 AvrEval: 0.901374  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.617740 time: 0.703509
+2017-12-16 18:58:58,664 : Epoch: 22 AvrEval: 0.899906  SegAvr: 0.937500 ProbAvr: 0.925000 eval_loss: 1.622746 time: 0.714628
+2017-12-16 18:58:59,390 : Epoch: 23 AvrEval: 0.894769  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.621539 time: 0.705287
+2017-12-16 18:59:00,120 : Epoch: 24 AvrEval: 0.896685  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.623260 time: 0.708564
+2017-12-16 18:59:00,875 : Epoch: 25 AvrEval: 0.894198  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.626308 time: 0.731900
+2017-12-16 18:59:01,606 : Epoch: 26 AvrEval: 0.902883  SegAvr: 0.937500 ProbAvr: 0.937500 eval_loss: 1.619427 time: 0.710657
+2017-12-16 18:59:02,333 : Epoch: 27 AvrEval: 0.889958  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.627041 time: 0.705053
+2017-12-16 18:59:03,064 : Epoch: 28 AvrEval: 0.885229  SegAvr: 0.900000 ProbAvr: 0.912500 eval_loss: 1.624915 time: 0.708867
+2017-12-16 18:59:03,793 : Epoch: 29 AvrEval: 0.885188  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.628069 time: 0.707755
+2017-12-16 18:59:04,519 : Epoch: 30 AvrEval: 0.876137  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.625794 time: 0.703645
+2017-12-16 18:59:04,520 : [Done]
+2017-12-16 18:59:04,520 : -----------------------------------------------------------------
+2017-12-16 19:03:39,837 : -----------------------------------------------------------------
+2017-12-16 19:03:45,881 : Epoch: 1 AvrEval: 0.667267  SegAvr: 0.587500 ProbAvr: 0.587500 eval_loss: 1.914185 time: 2.005240
+2017-12-16 19:03:46,740 : Epoch: 2 AvrEval: 0.698060  SegAvr: 0.675000 ProbAvr: 0.675000 eval_loss: 1.813212 time: 0.825173
+2017-12-16 19:03:47,575 : Epoch: 3 AvrEval: 0.707658  SegAvr: 0.687500 ProbAvr: 0.675000 eval_loss: 1.803548 time: 0.802784
+2017-12-16 19:03:48,417 : Epoch: 4 AvrEval: 0.730654  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.770097 time: 0.798707
+2017-12-16 19:03:49,190 : Epoch: 5 AvrEval: 0.721536  SegAvr: 0.750000 ProbAvr: 0.737500 eval_loss: 1.746924 time: 0.737358
+2017-12-16 19:03:50,010 : Epoch: 6 AvrEval: 0.735453  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.754650 time: 0.787313
+2017-12-16 19:03:50,821 : Epoch: 7 AvrEval: 0.740532  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.733091 time: 0.760936
+2017-12-16 19:03:51,570 : Epoch: 8 AvrEval: 0.727774  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.743594 time: 0.711977
+2017-12-16 19:03:52,395 : Epoch: 9 AvrEval: 0.730374  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.748523 time: 0.793005
+2017-12-16 19:03:53,136 : Epoch: 10 AvrEval: 0.728454  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752533 time: 0.708954
+2017-12-16 19:03:53,895 : Epoch: 11 AvrEval: 0.748570  SegAvr: 0.775000 ProbAvr: 0.762500 eval_loss: 1.724599 time: 0.726704
+2017-12-16 19:03:54,654 : Epoch: 12 AvrEval: 0.742132  SegAvr: 0.750000 ProbAvr: 0.762500 eval_loss: 1.734348 time: 0.725178
+2017-12-16 19:03:55,444 : Epoch: 13 AvrEval: 0.741732  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.740912 time: 0.758459
+2017-12-16 19:03:56,249 : Epoch: 14 AvrEval: 0.744011  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.737726 time: 0.768175
+2017-12-16 19:03:57,068 : Epoch: 15 AvrEval: 0.746731  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.741627 time: 0.781571
+2017-12-16 19:03:57,850 : Epoch: 16 AvrEval: 0.735213  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.744295 time: 0.745583
+2017-12-16 19:03:58,639 : Epoch: 17 AvrEval: 0.742292  SegAvr: 0.775000 ProbAvr: 0.750000 eval_loss: 1.745698 time: 0.759975
+2017-12-16 19:03:59,377 : Epoch: 18 AvrEval: 0.744131  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.742910 time: 0.703740
+2017-12-16 19:04:00,130 : Epoch: 19 AvrEval: 0.736653  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.752818 time: 0.720003
+2017-12-16 19:04:00,951 : Epoch: 20 AvrEval: 0.733973  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.744834 time: 0.787731
+2017-12-16 19:04:01,706 : Epoch: 21 AvrEval: 0.725815  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.751892 time: 0.722953
+2017-12-16 19:04:02,478 : Epoch: 22 AvrEval: 0.731934  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.748207 time: 0.736867
+2017-12-16 19:04:03,248 : Epoch: 23 AvrEval: 0.733813  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.749598 time: 0.738744
+2017-12-16 19:04:04,068 : Epoch: 24 AvrEval: 0.734653  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746937 time: 0.784968
+2017-12-16 19:04:04,856 : Epoch: 25 AvrEval: 0.735933  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748206 time: 0.746719
+2017-12-16 19:04:05,599 : Epoch: 26 AvrEval: 0.729854  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.746026 time: 0.709597
+2017-12-16 19:04:06,355 : Epoch: 27 AvrEval: 0.734373  SegAvr: 0.775000 ProbAvr: 0.775000 eval_loss: 1.745633 time: 0.722145
+2017-12-16 19:04:07,116 : Epoch: 28 AvrEval: 0.722775  SegAvr: 0.750000 ProbAvr: 0.750000 eval_loss: 1.749112 time: 0.726217
+2017-12-16 19:04:07,875 : Epoch: 29 AvrEval: 0.732773  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.748366 time: 0.727068
+2017-12-16 19:04:08,640 : Epoch: 30 AvrEval: 0.745851  SegAvr: 0.762500 ProbAvr: 0.750000 eval_loss: 1.738292 time: 0.731406
+2017-12-16 19:04:08,640 : [Done]
+2017-12-16 19:04:08,640 : -----------------------------------------------------------------
+2017-12-16 19:13:07,732 : -----------------------------------------------------------------
+2017-12-16 19:13:12,240 : Epoch: 1 AvrEval: 0.614774  SegAvr: 0.562500 ProbAvr: 0.550000 eval_loss: 1.933958 time: 1.633353
+2017-12-16 19:13:12,992 : Epoch: 2 AvrEval: 0.725188  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.770735 time: 0.723364
+2017-12-16 19:13:13,746 : Epoch: 3 AvrEval: 0.733909  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.772613 time: 0.732123
+2017-12-16 19:13:14,514 : Epoch: 4 AvrEval: 0.732923  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.713725 time: 0.745392
+2017-12-16 19:13:15,276 : Epoch: 5 AvrEval: 0.701985  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.755429 time: 0.739467
+2017-12-16 19:13:16,049 : Epoch: 6 AvrEval: 0.747248  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.700873 time: 0.746804
+2017-12-16 19:13:16,838 : Epoch: 7 AvrEval: 0.738763  SegAvr: 0.850000 ProbAvr: 0.837500 eval_loss: 1.702128 time: 0.752276
+2017-12-16 19:13:17,601 : Epoch: 8 AvrEval: 0.750878  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.700980 time: 0.736121
+2017-12-16 19:13:18,390 : Epoch: 9 AvrEval: 0.745630  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.733469 time: 0.764434
+2017-12-16 19:13:19,164 : Epoch: 10 AvrEval: 0.751352  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.700629 time: 0.750035
+2017-12-16 19:13:19,939 : Epoch: 11 AvrEval: 0.745314  SegAvr: 0.837500 ProbAvr: 0.837500 eval_loss: 1.712661 time: 0.748545
+2017-12-16 19:13:20,702 : Epoch: 12 AvrEval: 0.772424  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.683089 time: 0.740360
+2017-12-16 19:13:21,469 : Epoch: 13 AvrEval: 0.768873  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.692998 time: 0.744281
+2017-12-16 19:13:22,221 : Epoch: 14 AvrEval: 0.751588  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.725556 time: 0.729785
+2017-12-16 19:13:22,988 : Epoch: 15 AvrEval: 0.766386  SegAvr: 0.875000 ProbAvr: 0.875000 eval_loss: 1.699709 time: 0.745450
+2017-12-16 19:13:23,755 : Epoch: 16 AvrEval: 0.758573  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.701985 time: 0.743880
+2017-12-16 19:13:24,540 : Epoch: 17 AvrEval: 0.755337  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.707827 time: 0.763252
+2017-12-16 19:13:25,307 : Epoch: 18 AvrEval: 0.751746  SegAvr: 0.850000 ProbAvr: 0.862500 eval_loss: 1.719935 time: 0.744631
+2017-12-16 19:13:26,096 : Epoch: 19 AvrEval: 0.762440  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.696067 time: 0.765227
+2017-12-16 19:13:26,865 : Epoch: 20 AvrEval: 0.751036  SegAvr: 0.875000 ProbAvr: 0.862500 eval_loss: 1.704835 time: 0.746284
+2017-12-16 19:13:27,640 : Epoch: 21 AvrEval: 0.726609  SegAvr: 0.812500 ProbAvr: 0.812500 eval_loss: 1.704229 time: 0.753121
+2017-12-16 19:13:28,406 : Epoch: 22 AvrEval: 0.729214  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.707171 time: 0.740506
+2017-12-16 19:13:29,199 : Epoch: 23 AvrEval: 0.724715  SegAvr: 0.825000 ProbAvr: 0.812500 eval_loss: 1.710402 time: 0.766379
+2017-12-16 19:13:29,970 : Epoch: 24 AvrEval: 0.703248  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.722706 time: 0.747723
+2017-12-16 19:13:30,753 : Epoch: 25 AvrEval: 0.683241  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.727323 time: 0.758407
+2017-12-16 19:13:31,514 : Epoch: 26 AvrEval: 0.722308  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.713679 time: 0.739791
+2017-12-16 19:13:32,279 : Epoch: 27 AvrEval: 0.711535  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.720531 time: 0.742434
+2017-12-16 19:13:33,029 : Epoch: 28 AvrEval: 0.711653  SegAvr: 0.800000 ProbAvr: 0.812500 eval_loss: 1.717018 time: 0.727788
+2017-12-16 19:13:33,785 : Epoch: 29 AvrEval: 0.715836  SegAvr: 0.800000 ProbAvr: 0.825000 eval_loss: 1.722090 time: 0.735014
+2017-12-16 19:13:34,549 : Epoch: 30 AvrEval: 0.716073  SegAvr: 0.800000 ProbAvr: 0.812500 eval_loss: 1.717224 time: 0.740474
+2017-12-16 19:13:34,549 : [Done]
+2017-12-16 19:13:34,550 : -----------------------------------------------------------------
+2017-12-16 19:16:27,570 : -----------------------------------------------------------------
+2017-12-16 19:16:31,939 : Epoch: 1 AvrEval: 0.775638  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.795831 time: 1.578562
+2017-12-16 19:16:32,681 : Epoch: 2 AvrEval: 0.735267  SegAvr: 0.650000 ProbAvr: 0.650000 eval_loss: 1.823376 time: 0.721117
+2017-12-16 19:16:33,417 : Epoch: 3 AvrEval: 0.770905  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.729642 time: 0.713313
+2017-12-16 19:16:34,162 : Epoch: 4 AvrEval: 0.763086  SegAvr: 0.837500 ProbAvr: 0.812500 eval_loss: 1.717053 time: 0.721114
+2017-12-16 19:16:34,920 : Epoch: 5 AvrEval: 0.786337  SegAvr: 0.825000 ProbAvr: 0.875000 eval_loss: 1.670557 time: 0.730714
+2017-12-16 19:16:35,668 : Epoch: 6 AvrEval: 0.826337  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.667247 time: 0.719402
+2017-12-16 19:16:36,416 : Epoch: 7 AvrEval: 0.779218  SegAvr: 0.837500 ProbAvr: 0.837500 eval_loss: 1.686358 time: 0.724886
+2017-12-16 19:16:37,158 : Epoch: 8 AvrEval: 0.749506  SegAvr: 0.812500 ProbAvr: 0.837500 eval_loss: 1.715478 time: 0.718451
+2017-12-16 19:16:37,896 : Epoch: 9 AvrEval: 0.773868  SegAvr: 0.875000 ProbAvr: 0.875000 eval_loss: 1.683464 time: 0.714887
+2017-12-16 19:16:38,643 : Epoch: 10 AvrEval: 0.782099  SegAvr: 0.875000 ProbAvr: 0.887500 eval_loss: 1.679288 time: 0.722071
+2017-12-16 19:16:39,379 : Epoch: 11 AvrEval: 0.804362  SegAvr: 0.912500 ProbAvr: 0.900000 eval_loss: 1.677360 time: 0.713800
+2017-12-16 19:16:40,159 : Epoch: 12 AvrEval: 0.801070  SegAvr: 0.887500 ProbAvr: 0.900000 eval_loss: 1.689775 time: 0.755251
+2017-12-16 19:16:40,900 : Epoch: 13 AvrEval: 0.797737  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.678328 time: 0.719454
+2017-12-16 19:16:41,654 : Epoch: 14 AvrEval: 0.800123  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.664742 time: 0.726639
+2017-12-16 19:16:42,406 : Epoch: 15 AvrEval: 0.806379  SegAvr: 0.912500 ProbAvr: 0.925000 eval_loss: 1.666310 time: 0.728903
+2017-12-16 19:16:43,162 : Epoch: 16 AvrEval: 0.784074  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.678512 time: 0.731686
+2017-12-16 19:16:43,903 : Epoch: 17 AvrEval: 0.537695  SegAvr: 0.687500 ProbAvr: 0.687500 eval_loss: 1.885465 time: 0.719429
+2017-12-16 19:16:44,649 : Epoch: 18 AvrEval: 0.803951  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.666651 time: 0.721134
+2017-12-16 19:16:45,394 : Epoch: 19 AvrEval: 0.801440  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.661674 time: 0.720920
+2017-12-16 19:16:46,131 : Epoch: 20 AvrEval: 0.809012  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.656833 time: 0.714428
+2017-12-16 19:16:46,873 : Epoch: 21 AvrEval: 0.810947  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.652282 time: 0.717189
+2017-12-16 19:16:47,613 : Epoch: 22 AvrEval: 0.815926  SegAvr: 0.912500 ProbAvr: 0.912500 eval_loss: 1.652068 time: 0.715297
+2017-12-16 19:16:48,356 : Epoch: 23 AvrEval: 0.811111  SegAvr: 0.900000 ProbAvr: 0.875000 eval_loss: 1.660400 time: 0.720985
+2017-12-16 19:16:49,103 : Epoch: 24 AvrEval: 0.791111  SegAvr: 0.887500 ProbAvr: 0.887500 eval_loss: 1.672976 time: 0.724161
+2017-12-16 19:16:49,848 : Epoch: 25 AvrEval: 0.816296  SegAvr: 0.900000 ProbAvr: 0.900000 eval_loss: 1.658708 time: 0.722579
+2017-12-16 19:16:50,592 : Epoch: 26 AvrEval: 0.772346  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.692525 time: 0.720826
+2017-12-16 19:16:51,378 : Epoch: 27 AvrEval: 0.819177  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.645903 time: 0.764249
+2017-12-16 19:16:52,131 : Epoch: 28 AvrEval: 0.824444  SegAvr: 0.925000 ProbAvr: 0.925000 eval_loss: 1.649123 time: 0.726400
+2017-12-16 19:16:52,883 : Epoch: 29 AvrEval: 0.794568  SegAvr: 0.925000 ProbAvr: 0.912500 eval_loss: 1.668641 time: 0.712293
+2017-12-16 19:16:53,615 : Epoch: 30 AvrEval: 0.797531  SegAvr: 0.887500 ProbAvr: 0.887500 eval_loss: 1.656868 time: 0.708509
+2017-12-16 19:16:53,615 : [Done]
+2017-12-16 19:16:53,615 : -----------------------------------------------------------------
+2017-12-16 19:17:31,552 : -----------------------------------------------------------------
+2017-12-16 19:17:35,684 : Epoch: 1 AvrEval: 0.712848  SegAvr: 0.712500 ProbAvr: 0.700000 eval_loss: 1.823391 time: 1.628810
+2017-12-16 19:17:36,442 : Epoch: 2 AvrEval: 0.756502  SegAvr: 0.712500 ProbAvr: 0.712500 eval_loss: 1.780377 time: 0.734999
+2017-12-16 19:17:37,194 : Epoch: 3 AvrEval: 0.739861  SegAvr: 0.700000 ProbAvr: 0.712500 eval_loss: 1.801146 time: 0.730592
+2017-12-16 19:17:37,947 : Epoch: 4 AvrEval: 0.763003  SegAvr: 0.725000 ProbAvr: 0.725000 eval_loss: 1.769156 time: 0.724055
+2017-12-16 19:17:38,702 : Epoch: 5 AvrEval: 0.710875  SegAvr: 0.737500 ProbAvr: 0.737500 eval_loss: 1.777515 time: 0.733675
+2017-12-16 19:17:39,455 : Epoch: 6 AvrEval: 0.797755  SegAvr: 0.812500 ProbAvr: 0.800000 eval_loss: 1.727703 time: 0.730997
+2017-12-16 19:17:40,209 : Epoch: 7 AvrEval: 0.742957  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.758544 time: 0.733078
+2017-12-16 19:17:40,975 : Epoch: 8 AvrEval: 0.765441  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.750984 time: 0.744408
+2017-12-16 19:17:41,740 : Epoch: 9 AvrEval: 0.722794  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.785191 time: 0.743266
+2017-12-16 19:17:42,508 : Epoch: 10 AvrEval: 0.803676  SegAvr: 0.837500 ProbAvr: 0.837500 eval_loss: 1.728864 time: 0.744728
+2017-12-16 19:17:43,285 : Epoch: 11 AvrEval: 0.828019  SegAvr: 0.887500 ProbAvr: 0.862500 eval_loss: 1.718417 time: 0.753794
+2017-12-16 19:17:44,042 : Epoch: 12 AvrEval: 0.725271  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.776067 time: 0.736175
+2017-12-16 19:17:44,820 : Epoch: 13 AvrEval: 0.603096  SegAvr: 0.637500 ProbAvr: 0.650000 eval_loss: 1.890417 time: 0.755628
+2017-12-16 19:17:45,591 : Epoch: 14 AvrEval: 0.755960  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.724539 time: 0.747685
+2017-12-16 19:17:46,364 : Epoch: 15 AvrEval: 0.757314  SegAvr: 0.812500 ProbAvr: 0.787500 eval_loss: 1.761223 time: 0.749983
+2017-12-16 19:17:47,139 : Epoch: 16 AvrEval: 0.791022  SegAvr: 0.825000 ProbAvr: 0.812500 eval_loss: 1.741495 time: 0.751116
+2017-12-16 19:17:47,904 : Epoch: 17 AvrEval: 0.797407  SegAvr: 0.837500 ProbAvr: 0.825000 eval_loss: 1.743295 time: 0.742884
+2017-12-16 19:17:48,660 : Epoch: 18 AvrEval: 0.795898  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.729750 time: 0.734517
+2017-12-16 19:17:49,430 : Epoch: 19 AvrEval: 0.768847  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.750852 time: 0.748400
+2017-12-16 19:17:50,183 : Epoch: 20 AvrEval: 0.420085  SegAvr: 0.412500 ProbAvr: 0.387500 eval_loss: 2.030449 time: 0.730468
+2017-12-16 19:17:50,940 : Epoch: 21 AvrEval: 0.780147  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.723225 time: 0.734351
+2017-12-16 19:17:51,684 : Epoch: 22 AvrEval: 0.767918  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.720712 time: 0.723095
+2017-12-16 19:17:52,425 : Epoch: 23 AvrEval: 0.788274  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.721707 time: 0.718442
+2017-12-16 19:17:53,179 : Epoch: 24 AvrEval: 0.782005  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.725894 time: 0.730422
+2017-12-16 19:17:53,956 : Epoch: 25 AvrEval: 0.782817  SegAvr: 0.787500 ProbAvr: 0.775000 eval_loss: 1.719498 time: 0.755323
+2017-12-16 19:17:54,729 : Epoch: 26 AvrEval: 0.794582  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.711639 time: 0.751913
+2017-12-16 19:17:55,504 : Epoch: 27 AvrEval: 0.777245  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.726377 time: 0.750752
+2017-12-16 19:17:56,285 : Epoch: 28 AvrEval: 0.784365  SegAvr: 0.825000 ProbAvr: 0.837500 eval_loss: 1.715270 time: 0.758368
+2017-12-16 19:17:57,061 : Epoch: 29 AvrEval: 0.779992  SegAvr: 0.800000 ProbAvr: 0.812500 eval_loss: 1.725212 time: 0.755665
+2017-12-16 19:17:57,828 : Epoch: 30 AvrEval: 0.796672  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.713845 time: 0.747044
+2017-12-16 19:17:57,828 : [Done]
+2017-12-16 19:17:57,829 : -----------------------------------------------------------------
+2017-12-16 19:25:08,379 : -----------------------------------------------------------------
+2017-12-16 19:25:12,478 : Epoch: 1 AvrEval: 0.614774  SegAvr: 0.562500 ProbAvr: 0.550000 eval_loss: 1.933958 time: 1.567374
+2017-12-16 19:25:13,235 : Epoch: 2 AvrEval: 0.725188  SegAvr: 0.762500 ProbAvr: 0.762500 eval_loss: 1.770735 time: 0.735063
+2017-12-16 19:25:14,005 : Epoch: 3 AvrEval: 0.733909  SegAvr: 0.787500 ProbAvr: 0.787500 eval_loss: 1.772613 time: 0.748777
+2017-12-16 19:25:14,755 : Epoch: 4 AvrEval: 0.732923  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.713725 time: 0.727635
+2017-12-16 19:25:15,509 : Epoch: 5 AvrEval: 0.701985  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.755429 time: 0.732085
+2017-12-16 19:25:16,256 : Epoch: 6 AvrEval: 0.747248  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.700873 time: 0.725565
+2017-12-16 19:25:17,014 : Epoch: 7 AvrEval: 0.738763  SegAvr: 0.850000 ProbAvr: 0.837500 eval_loss: 1.702128 time: 0.737128
+2017-12-16 19:25:17,777 : Epoch: 8 AvrEval: 0.750878  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.700980 time: 0.740360
+2017-12-16 19:25:18,572 : Epoch: 9 AvrEval: 0.745630  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.733469 time: 0.772529
+2017-12-16 19:25:19,330 : Epoch: 10 AvrEval: 0.751352  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.700629 time: 0.734979
+2017-12-16 19:25:20,093 : Epoch: 11 AvrEval: 0.745314  SegAvr: 0.837500 ProbAvr: 0.837500 eval_loss: 1.712661 time: 0.741405
+2017-12-16 19:25:20,843 : Epoch: 12 AvrEval: 0.772424  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.683089 time: 0.729660
+2017-12-16 19:25:21,598 : Epoch: 13 AvrEval: 0.768873  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.692998 time: 0.734089
+2017-12-16 19:25:22,370 : Epoch: 14 AvrEval: 0.751588  SegAvr: 0.850000 ProbAvr: 0.850000 eval_loss: 1.725556 time: 0.749450
+2017-12-16 19:25:23,131 : Epoch: 15 AvrEval: 0.766386  SegAvr: 0.875000 ProbAvr: 0.875000 eval_loss: 1.699709 time: 0.734103
+2017-12-16 19:25:23,873 : Epoch: 16 AvrEval: 0.758573  SegAvr: 0.862500 ProbAvr: 0.862500 eval_loss: 1.701985 time: 0.719063
+2017-12-16 19:25:24,624 : Epoch: 17 AvrEval: 0.755337  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.707827 time: 0.730523
+2017-12-16 19:25:25,365 : Epoch: 18 AvrEval: 0.751746  SegAvr: 0.850000 ProbAvr: 0.862500 eval_loss: 1.719935 time: 0.721036
+2017-12-16 19:25:26,136 : Epoch: 19 AvrEval: 0.762440  SegAvr: 0.862500 ProbAvr: 0.875000 eval_loss: 1.696067 time: 0.749949
+2017-12-16 19:25:26,900 : Epoch: 20 AvrEval: 0.751036  SegAvr: 0.875000 ProbAvr: 0.862500 eval_loss: 1.704835 time: 0.742362
+2017-12-16 19:25:27,684 : Epoch: 21 AvrEval: 0.726609  SegAvr: 0.812500 ProbAvr: 0.812500 eval_loss: 1.704229 time: 0.762160
+2017-12-16 19:25:28,443 : Epoch: 22 AvrEval: 0.729214  SegAvr: 0.825000 ProbAvr: 0.825000 eval_loss: 1.707171 time: 0.735298
+2017-12-16 19:25:29,206 : Epoch: 23 AvrEval: 0.724715  SegAvr: 0.825000 ProbAvr: 0.812500 eval_loss: 1.710402 time: 0.742884
+2017-12-16 19:25:29,993 : Epoch: 24 AvrEval: 0.703248  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.722706 time: 0.765352
+2017-12-16 19:25:30,804 : Epoch: 25 AvrEval: 0.683241  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.727323 time: 0.789055
+2017-12-16 19:25:31,566 : Epoch: 26 AvrEval: 0.722308  SegAvr: 0.787500 ProbAvr: 0.800000 eval_loss: 1.713679 time: 0.741754
+2017-12-16 19:25:32,398 : Epoch: 27 AvrEval: 0.711535  SegAvr: 0.800000 ProbAvr: 0.800000 eval_loss: 1.720531 time: 0.809673
+2017-12-16 19:25:33,162 : Epoch: 28 AvrEval: 0.711653  SegAvr: 0.800000 ProbAvr: 0.812500 eval_loss: 1.717018 time: 0.742021
+2017-12-16 19:25:33,957 : Epoch: 29 AvrEval: 0.715836  SegAvr: 0.800000 ProbAvr: 0.825000 eval_loss: 1.722090 time: 0.772022
+2017-12-16 19:25:34,752 : Epoch: 30 AvrEval: 0.716073  SegAvr: 0.800000 ProbAvr: 0.812500 eval_loss: 1.717224 time: 0.771230
+2017-12-16 19:25:34,752 : [Done]
+2017-12-16 19:25:34,752 : -----------------------------------------------------------------

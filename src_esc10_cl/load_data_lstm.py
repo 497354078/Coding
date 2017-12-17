@@ -27,10 +27,10 @@ class LoadTrainData(Dataset):
                 index = 0
                 frame = 65
                 step = 1
-                assert subData.shape[0] == 64
-                while index + frame <= subData.shape[1]:
-                    tmpData = subData[:, index:index+frame]
-                    tmpData = tmpData.reshape((1, tmpData.shape[0], tmpData.shape[1])).astype(np.float32)
+                assert subData.shape[1] == 128
+                while index + frame <= subData.shape[0]:
+                    tmpData = subData[index:index+frame, :]
+                    #tmpData = tmpData.reshape((1, tmpData.shape[0], tmpData.shape[1]))
                     data.append(tmpData)
                     labs.append(audioID)
                     index += step
@@ -44,13 +44,13 @@ class LoadTrainData(Dataset):
                     protocol=pickle.HIGHEST_PROTOCOL)
         pickle.dump(stdData, open('../../data/data_wait/train.std', 'wb'),
                     protocol=pickle.HIGHEST_PROTOCOL)
-        #data = (data-meanData) / stdData
+        data = (data-meanData) / stdData
         data = torch.from_numpy(data).type(torch.FloatTensor)
         labs = torch.from_numpy(labs).type(torch.LongTensor)
+
+
         print 'data: ', data.size()
         print 'labs: ', labs.size()
-        #print 'data: ', len(data), data[0].shape
-        #print 'labs: ', len(labs)
         print ''
         return data, labs
 
@@ -83,20 +83,18 @@ class LoadValidData(Dataset):
                 index = 0
                 frame = 65
                 step = 1
-                assert subData.shape[0] == 64
+                assert subData.shape[1] == 128
                 dataList = []
                 labsList = []
-                while index + frame <= subData.shape[1]:
-                    tmpData = subData[:, index:index+frame]
-                    tmpData = tmpData.reshape((1, tmpData.shape[0], tmpData.shape[1]))
+                while index + frame <= subData.shape[0]:
+                    tmpData = subData[index:index+frame, :]
+                    #tmpData = tmpData.reshape((1, tmpData.shape[0], tmpData.shape[1]))
                     dataList.append(tmpData)
                     labsList.append(audioID)
                     index += step
                 dataMat = np.asarray(dataList)
-
-                #dataMat = (dataMat - dataMat.mean()) / dataMat.std()
-                #dataMat = (dataMat - meanData) / stdData
-
+                dataMat = (dataMat - dataMat.mean()) / dataMat.std()
+                dataMat = (dataMat - meanData) / stdData
                 labsMat = np.asarray(labsList)
                 dataTensor = torch.from_numpy(dataMat).type(torch.FloatTensor)
                 labsTensor = torch.from_numpy(labsMat).type(torch.LongTensor)
@@ -111,12 +109,12 @@ class LoadValidData(Dataset):
 
 if __name__ == '__main__':
     print '----------------------------------------------------------------'
-
     dims = 64
     fold = 'fold0'
     dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
-    trainFile = os.path.join(dataPath, 'train.dict')
-    validFile = os.path.join(dataPath, 'valid.dict')
+    waitPath = '../../data/data_wait'
+    trainFile = os.path.join(dataPath, 'train.embed')
+    validFile = os.path.join(dataPath, 'valid.embed')
 
     trainData = LoadTrainData(trainFile)
     trainLoad = torch.utils.data.DataLoader(trainData, batch_size=512, shuffle=True, num_workers=8)
@@ -133,4 +131,3 @@ if __name__ == '__main__':
         print 'labs: ', type(labs), labs.size()
         if id_>=1:break
 
-    print '[Done]\n'
