@@ -68,7 +68,7 @@ def process(files, mode):
 
 if __name__ == '__main__':
     print '-----------------------------------------------------------------'
-    os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+    os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     timeMark = str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
     #timeMark = '2017-12-14 18:07:47'
     make_path('log')
@@ -80,12 +80,12 @@ if __name__ == '__main__':
 
     rePrint('-----------------------------------------------------------------')
 
-    fold = 'fold0'
-    dataPath = '../../data/data_ubk/{:s}'.format(fold)
-    modelPath = '../../model/model_ubk/{:s}'.format(fold)
-    modelFile = 'Basic_CNN_0.{:d}.model'
+    fold = 'fold4'
+    dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
+    modelPath = '../../model/model_ESC-10/{:s}'.format(fold)
+    modelFile = 'bottle.{:d}.model'
     make_path(modelPath)
-    net = torch.load(os.path.join(modelPath, modelFile.format(19)))
+    net = torch.load(os.path.join(modelPath, modelFile.format(26)))
     net.cuda()
 
     process(os.path.join(dataPath, 'train.dict'), 'train')
