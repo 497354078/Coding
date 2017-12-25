@@ -72,7 +72,7 @@ if __name__ == '__main__':
     vadDict = pickle.load(open(vadFile, 'rb'))
     look_vad_dict(vadDict)
 
-    process(trainFile, 'train')
-    process(validFile, 'valid')
-    process(testFile, 'test')
+    #process(trainFile, 'train')
+    #process(validFile, 'valid')
+    #process(testFile, 'test')
     print '[Done]'

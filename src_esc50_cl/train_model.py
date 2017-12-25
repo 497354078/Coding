@@ -6,10 +6,10 @@ from model_bottle import Basic_CNN_0, resnet
 from load_data import *
 
 # Training settings
-parser = argparse.ArgumentParser(description='PyTorch BasicCNN For Far ESC-10')
-parser.add_argument('--num_classes', type=int, default=10, metavar='N',
+parser = argparse.ArgumentParser(description='PyTorch resnet For Far ESC-50')
+parser.add_argument('--num_classes', type=int, default=50, metavar='N',
                     help='number of epochs to train (default: 10)')
-parser.add_argument('--epochs', type=int, default=30, metavar='N',
+parser.add_argument('--epochs', type=int, default=300, metavar='N',
                     help='number of epochs to train (default: 20)')
 parser.add_argument('--lr', type=float, default=0.01, metavar='LR',
                     help='learning rate (default: 0.01)')
@@ -17,11 +17,11 @@ parser.add_argument('--momentum', type=float, default=0.9, metavar='M',
                     help='SGD momentum (default: 0.9)')
 parser.add_argument('--weight_decay', type=float, default=5e-3, metavar='M',
                     help='SGD momentum (default: 5e-4)')
-parser.add_argument('--batch_size', type=int, default=256, metavar='N',
+parser.add_argument('--batch_size', type=int, default=128, metavar='N',
                     help='input batch size for training (default: 512)')
-parser.add_argument('--log_interval', type=int, default=100, metavar='N',
+parser.add_argument('--log_interval', type=int, default=500, metavar='N',
                     help='how many batches to wait before logging training status')
-parser.add_argument('--seed', type=int, default=1, metavar='S',
+parser.add_argument('--seed', type=int, default=11, metavar='S',
                     help='random seed (default: 1)')
 args = parser.parse_args()
 
@@ -116,7 +116,7 @@ def valid_model():
 
 if __name__ == '__main__':
     print '--------------------------------------------------------------------------------------'
-    os.environ['CUDA_VISIBLE_DEVICES'] = '5'
+    os.environ['CUDA_VISIBLE_DEVICES'] = '7'
     timeMark = str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
     #timeMark = '2017-12-14 18:07:47'
     make_path('log')
@@ -129,9 +129,9 @@ if __name__ == '__main__':
     rePrint('--------------------------------------------------------------------------------------')
     rePrint(str(args))
 
-    fold = 'fold4'
-    dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
-    modelPath = '../../model/model_ESC-10/{:s}'.format(fold)
+    fold = 'fold0'
+    dataPath = '../../data/data_ESC-50/{:s}'.format(fold)
+    modelPath = '../../model/model_ESC-50/{:s}'.format(fold)
     #modelFile = 'Basic_CNN_0.{:d}.model'
     modelFile = 'bottle.{:d}.model'
     make_path(modelPath)
@@ -139,7 +139,7 @@ if __name__ == '__main__':
     trainData = LoadTrainData(os.path.join(dataPath, 'train.dict'))
     validData = LoadValidData(os.path.join(dataPath, 'valid.dict'))
     trainLoad = torch.utils.data.DataLoader(trainData,
-                    batch_size=args.batch_size, shuffle=True, num_workers=8)
+                    batch_size=args.batch_size, shuffle=True, num_workers=4)
 
     #net = Basic_CNN_0(num_classes=args.num_classes)
     net = resnet(num_classes=args.num_classes)
@@ -153,7 +153,7 @@ if __name__ == '__main__':
                                 momentum=args.momentum,
                                 weight_decay=args.weight_decay)
     scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.7,
-                            patience=5, verbose=False, threshold=1e-6,
+                            patience=20, verbose=False, threshold=1e-6,
                         threshold_mode='rel', cooldown=0, min_lr=0, eps=1e-08)
 
     for epoch in range(args.epochs):

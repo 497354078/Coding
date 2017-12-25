@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
     dims = 64
     fold = 'fold0'
-    dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
+    dataPath = '../../data/data_ESC-50/{:s}'.format(fold)
     trainFile = os.path.join(dataPath, 'train.dict')
     validFile = os.path.join(dataPath, 'valid.dict')
 

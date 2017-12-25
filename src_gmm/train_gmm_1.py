@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     train_gmm(os.path.join(dataPath, 'train.dict'))
 
-    estimator = pickle.load(open(os.path.join(modelPath, 'gmm.model')))
+    estimator = pickle.load(open(os.path.join(modelPath, 'gmm1.model')))
 
     eval_gmm(estimator, os.path.join(dataPath, 'valid.dict'))
     eval_gmm(estimator, os.path.join(dataPath, 'test.dict'))

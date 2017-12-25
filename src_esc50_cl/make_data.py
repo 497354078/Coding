@@ -43,9 +43,11 @@ def process(files, mode):
         data = pickle.load(open(os.path.join(feaPath, audioName+'.fea'), 'rb'))
         if audioName not in vadDict:
             raise IOError('[{:s}] not in vadDict'.format(audioName))
+        if audioName == '4-175000-A':
+            print vadDict[audioName]
         data = vad_process(data, vadDict[audioName])
         if data is None:
-            raise IOError('[{:s}] data is None'.format(audioName))
+            raise IOError('[{:s}] data is None'.format(items))
         if audioID not in dataDict:
             dataDict[audioID] = []
         dataDict[audioID].append(data)
@@ -59,16 +61,16 @@ def process(files, mode):
 if __name__ == '__main__':
     print '------------------------------------------------------------'
     dims = 64
-    fold = 'fold4'
-    feaPath = '../../feature/feature_ESC-10/22050_logspec'
-    dataPath = '../../data/data_ESC-10/{:s}'.format(fold)
+    fold = 'fold0'
+    feaPath = '../../feature/feature_ESC-50/22050_logspec'
+    dataPath = '../../data/data_ESC-50/{:s}'.format(fold)
     trainFile = 'files/evaluate-setup/{:s}_train.txt'.format(fold)
     validFile = 'files/evaluate-setup/{:s}_valid.txt'.format(fold)
     testFile = 'files/evaluate-setup/{:s}_test.txt'.format(fold)
-    vadFile = 'files/vad2numpy.dict'
+    vadFile = 'files/vad2numpy.0.01.dict'
 
     vadDict = pickle.load(open(vadFile, 'rb'))
-    #look_vad_dict(vadDict)
+    look_vad_dict(vadDict)
 
     process(trainFile, 'train')
     process(validFile, 'valid')
