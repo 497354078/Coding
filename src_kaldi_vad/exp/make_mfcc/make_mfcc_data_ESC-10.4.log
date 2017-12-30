@@ -1,0 +1,2009 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_data_ESC-10.4.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/lj/work/project/2017-11-24/Coding/src_kaldi_vad/mfcc_ESC-10/raw_mfcc_data_ESC-10.4.ark,/home/lj/work/project/2017-11-24/Coding/src_kaldi_vad/mfcc_ESC-10/raw_mfcc_data_ESC-10.4.scp 
+# Started at Fri Dec 29 12:54:31 CST 2017
+#
+copy-feats --compress=true ark:- ark,scp:/home/lj/work/project/2017-11-24/Coding/src_kaldi_vad/mfcc_ESC-10/raw_mfcc_data_ESC-10.4.ark,/home/lj/work/project/2017-11-24/Coding/src_kaldi_vad/mfcc_ESC-10/raw_mfcc_data_ESC-10.4.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_data_ESC-10.4.scp ark:- 
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/3-118658-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/3-118972-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/3-118972-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/3-165856-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-149294-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-149294-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-157611-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-157611-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-165823-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-165823-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-169127-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/4-169127-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-170338-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-170338-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-171653-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-185579-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-185579-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-216370-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-216370-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/008 - Chainsaw/5-222524-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-26806-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-27724-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-34119-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-34119-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-39923-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-40730-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-43382-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/1-44831-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-100786-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-65750-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-71162-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-81270-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-95035-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-95258-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-95258-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/2-96460-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-107219-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-116135-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-134049-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-137152-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-145382-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-149189-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-154957-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/3-163288-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-164021-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-164064-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-164064-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-164064-C.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-164859-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-170078-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-183487-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/4-208021-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-194930-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-194930-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-200334-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-200334-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-200339-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-233160-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-234879-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/009 - Rooster/5-234879-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-17150-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-17565-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-17742-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-17808-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-17808-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-4211-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-46272-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/1-7057-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-18766-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-18766-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-28314-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-28314-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-30322-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-30322-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-61311-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/2-65747-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-104632-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-104958-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-120644-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-145774-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-147965-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-157187-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-158476-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/3-65748-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-164661-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-164661-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-170247-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-170247-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-171207-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-181563-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-182368-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/4-182369-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-186924-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-189212-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-189237-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-193473-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-193473-B.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-213802-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-215658-A.ogg'
+ERROR (compute-mfcc-feats[5.2.137-9a6e1]:Read():wave-reader.cc:122) WaveData: expected RIFF or RIFX, got OggS
+
+[ Stack-Trace: ]
+compute-mfcc-feats() [0x5763ca]
+kaldi::MessageLogger::HandleMessage(kaldi::LogMessageEnvelope const&, char const*)
+kaldi::MessageLogger::~MessageLogger()
+kaldi::WaveInfo::Read(std::istream&)
+kaldi::WaveData::Read(std::istream&)
+kaldi::WaveHolder::Read(std::istream&)
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::EnsureObjectLoaded()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Next()
+kaldi::SequentialTableReaderScriptImpl<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::Open(std::string const&)
+kaldi::SequentialTableReader<kaldi::WaveHolder>::SequentialTableReader(std::string const&)
+main
+__libc_start_main
+compute-mfcc-feats() [0x4a6f79]
+
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:Read():feat/wave-reader.h:197) Exception caught in WaveHolder::Read(). 
+WARNING (compute-mfcc-feats[5.2.137-9a6e1]:EnsureObjectLoaded():util/kaldi-table-inl.h:317) Failed to load object from '/home/lj/work/project/dataset/data_ESC-10/010 - Fire crackling/5-215658-B.ogg'
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:176)  Done 0 out of 0 utterances.
+LOG (copy-feats[5.2.137-9a6e1]:main():copy-feats.cc:143) Copied 0 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 1) at Fri Dec 29 12:54:31 CST 2017, elapsed time 0 seconds

@@ -2,19 +2,9 @@ import os
 import sys
 import shutil
 
-def write_list(list_, files):
-    f = open(files, 'wb')
-    for id_, items in enumerate(list_):
-        if id_ == 0: print items
-        f.write(items)
-    f.close()
-
 def write_dict(dict_, files):
-    #dict_ = sorted(dict_.iteritems(), key=lambda asd:asd[0], reverse=False)
-    #dict_ = dict_.items()
-    #dict_.sort()
     f = open(files, 'wb')
-    for id_, key in enumerate(sorted(dict_.keys())):
+    for id_, key in enumerate(dict_):
         if id_ == 0: print key, dict_[key]
         s = key
         for items in dict_[key]:
@@ -36,12 +26,10 @@ def change_spk2utt(spkDict, uttDict, spk2utt):
 def change_utt2spk(spkDict, uttDict, utt2spk):
     newutt2spk = {}
     for uttName in utt2spk:
-        newutt2spk[uttDict[uttName][0]] = [spkDict[utt2spk[uttName][0]][0]]
+        newutt2spk[uttDict[uttName][0]] = spkDict[utt2spk[uttName]][0]
     return newutt2spk
 
 def change_wavscp(uttDict, wavscp, destPath):
-    if not os.path.exists(destPath):
-        os.makedirs(destPath)
     newwavscp = {}
     for uttName in wavscp:
         newUttName = uttDict[uttName][0]
@@ -52,9 +40,9 @@ def change_wavscp(uttDict, wavscp, destPath):
 def make_files(files, dataPath, destPath, dataType):
 
     lines = open(files, 'rb').readlines()
-    wavscp = {}
     spk2utt = {}
     utt2spk = {}
+    wavscp = {}
     for id_, items in enumerate(lines):
         items = items.split('\n')[0].split('\t')
         spkName, uttName = os.path.split(items[0])
@@ -97,10 +85,11 @@ def make_files(files, dataPath, destPath, dataType):
 
 
 if __name__ == '__main__':
-    dataDir = sys.argv[1]#'data_ESC-10'
-    dataPath = sys.argv[2]#'/home/lj/work/project/dataset/data_ESC-10'
-    destPath = sys.argv[3]#'/home/lj/work/project/dataset/data_audio'
-    metaFile = sys.argv[4]#'../src_esc10/files/meta.audiolist'
-    
-    make_files(metaFile, dataPath, destPath, dataDir)
-    print '[Done]'
+    dataType = 'data_ESC-10'
+    dataPath = '/home/lj/work/project/dataset/data_ESC-10'
+    destPath = '/home/lj/work/project/dataset/data_audio'
+    metaFile = '../src_esc10/files/meta.audiolist'
+
+    make_files(metaFile, dataPath, destPath, dataType)
+
+
